@@ -107,10 +107,14 @@ npm start
 ```
 
 And go to http://localhost:3000/ in your web browser to access it.
+You should be able to see something like this:
+
+![](tutorial_assets/expressjs_basic.app.jpg)  
 
 Neat, huh?
 
-But wait!!!  
+## But wait!!!   
+
 This is just a plain web application, not a *mainframe* one!
 
 As an use-case, I will try to keep it simple. Let's say I want to check the IPL information of the system.
@@ -119,8 +123,12 @@ As an use-case, I will try to keep it simple. Let's say I want to check the IPL 
 
 In order to get this information, you need to connect to your [3270 terminal emulator](https://www.google.com/search?q=3270+emulator&rlz=1C1GCEA_enUS869US869&sxsrf=ACYBGNRHic-f5qJm8pfhTrI6n8DbhmY3gw:1570813385740&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjC8PXu15TlAhXgRBUIHVO8DFYQ_AUIEigB&biw=1536&bih=722) of choice, log in with your mainframe credentials, navigate through the [ISPF panels](https://www.google.com/search?rlz=1C1GCEA_enUS869US869&biw=1536&bih=722&tbm=isch&sxsrf=ACYBGNTF7c8Axlgi18rufk-MY0redjM21A%3A1570813388017&sa=1&ei=zLWgXZ9N64KFsg-y9ozYDA&q=ISPF&oq=ISPF&gs_l=img.3..0l8j0i24l2.76269.76664..77833...0.0..0.99.319.4......0....1..gws-wiz-img.......35i39j0i67.Mr4lFrIKl4Y&ved=0ahUKEwif44Dw15TlAhVrQUEAHTI7A8sQ4dUDCAc&uact=5) and go to the system console, then issue the command `/DISPLAY IPLINFO`. Pretty lengthy activity, right?
 
+How about we simplify this task, so that the user needs only to press a button and get this information.
+
 
 ---
 # Extras:
-## Hosting your web application on Heroku
+## Hosting your web application
+
+There are many hosting services for your web applications, but I've found Heroku to be one of the simplest and cheapest (even free) ways to do that.
 
